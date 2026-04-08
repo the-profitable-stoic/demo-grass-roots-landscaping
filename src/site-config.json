@@ -1,0 +1,548 @@
+{
+  "business": {
+    "name": "Grass Roots Landscaping",
+    "phone": "19193634360",
+    "category": "landscaping",
+    "city": "Raleigh",
+    "state": "NC"
+  },
+  "design": {
+    "preset": {
+      "id": "landscaping-red-charge",
+      "categoryGroup": "landscaping",
+      "name": "Red Charge",
+      "recipeFile": "landscaping/red-charge.astro",
+      "colors": {
+        "primary": "#16A34A",
+        "primaryDark": "#14532D",
+        "primaryLight": "#c5e8d2",
+        "secondary": "#149343",
+        "accent": "#65A30D",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#16A34A",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "landscaping/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Raleigh's Premier Landscaping Experts",
+      "heroSubline": "Creating beautiful and sustainable outdoor spaces throughout the Triangle. Transforming your yard into a place you'll love.",
+      "aboutTitle": "Crafting Landscapes, Cultivating Community",
+      "aboutText": [
+        "Grass Roots Landscaping started with a simple goal: to bring exceptional landscaping services to Raleigh with a personal touch. Founded by lifelong Raleigh resident, Mark Johnson, we understand the unique challenges and opportunities that our local environment presents.",
+        "We believe in a collaborative approach, working closely with our clients to understand their vision and bring it to life. Our commitment to sustainability means we use eco-friendly practices and materials whenever possible, ensuring your landscape thrives for years to come.",
+        "As a local business, we're deeply invested in the Raleigh community. We regularly volunteer with local organizations and support initiatives that promote environmental stewardship and community beautification."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Expertise",
+          "description": "Deep understanding of Raleigh's climate, soil, and native plants."
+        },
+        {
+          "title": "Custom Designs",
+          "description": "Landscapes tailored to your specific needs and aesthetic preferences."
+        },
+        {
+          "title": "Sustainable Practices",
+          "description": "Eco-friendly solutions that minimize environmental impact."
+        },
+        {
+          "title": "Reliable Service",
+          "description": "Professional and timely service from start to finish."
+        }
+      ],
+      "ctaHeadline": "Transform Your Outdoor Space Today",
+      "ctaSubline": "Schedule a free consultation and let us bring your landscaping dreams to life."
+    },
+    "services": [
+      {
+        "slug": "landscape-design",
+        "name": "Landscape Design",
+        "shortDescription": "Custom landscape designs that enhance your property's beauty and value.",
+        "description": "Our landscape design service is tailored to the unique characteristics of your property and your personal preferences. We start with a comprehensive consultation to understand your vision, lifestyle, and budget. Considering Raleigh's hot summers and Piedmont's red clay soil, we focus on plant selection that thrives in our environment and drainage solutions to prevent water damage. Whether you're looking for a complete overhaul or a simple refresh, our experienced designers will create a plan that maximizes your outdoor space's potential. From initial concept to final installation, we'll guide you through every step of the process, ensuring your complete satisfaction. We also take into account the architectural style of your home, whether it's a classic 1950s ranch near NC State or a modern home in North Hills, to create a cohesive and harmonious landscape design. We provide precise plans and 3D renderings to visualize the final result, eliminating any guesswork.",
+        "process": [
+          "Step 1: Initial Consultation to discuss your needs and preferences.",
+          "Step 2: Site Assessment to evaluate your property's characteristics.",
+          "Step 3: Design Development to create a custom landscape plan.",
+          "Step 4: Installation and Project Management to bring your vision to life."
+        ],
+        "benefits": [
+          "Increased property value",
+          "Enhanced curb appeal",
+          "Sustainable and low-maintenance landscapes",
+          "Personalized outdoor living spaces"
+        ],
+        "faq": [
+          {
+            "question": "How much does landscape design cost?",
+            "answer": "The cost of landscape design varies depending on the size and complexity of the project. We offer free consultations to provide you with a detailed estimate."
+          },
+          {
+            "question": "How long does the design process take?",
+            "answer": "The design process typically takes 2-4 weeks, depending on the scope of the project and the number of revisions required."
+          },
+          {
+            "question": "Do you offer maintenance services after installation?",
+            "answer": "Yes, we offer a full range of maintenance services to keep your landscape looking its best year-round."
+          }
+        ]
+      },
+      {
+        "slug": "lawn-care",
+        "name": "Lawn Care",
+        "shortDescription": "Expert lawn care services for a healthy, green, and weed-free lawn.",
+        "description": "Our lawn care service is designed to keep your lawn looking its best throughout the year. We understand the challenges of maintaining a healthy lawn in Raleigh's climate, from the hot, humid summers to the occasional winter freeze. Our comprehensive lawn care program includes fertilization, weed control, aeration, and overseeding. We use high-quality products and proven techniques to ensure your lawn receives the nutrients it needs to thrive. We also address common lawn problems such as brown patch, grub infestations, and compaction. Our team of experienced technicians will assess your lawn's specific needs and develop a customized treatment plan. We take into account the type of grass, soil conditions, and sun exposure to provide the most effective and environmentally responsible solutions. We also offer specialized services such as soil testing and pH balancing to optimize your lawn's health. We know that many homes in the ITB (Inside the Beltline) area have older lawns that require special attention, and we are equipped to handle these unique challenges. ",
+        "process": [
+          "Step 1: Lawn Assessment to identify your lawn's specific needs.",
+          "Step 2: Customized Treatment Plan tailored to your lawn's condition.",
+          "Step 3: Regular Fertilization and Weed Control applications.",
+          "Step 4: Aeration and Overseeding for optimal growth."
+        ],
+        "benefits": [
+          "Healthy, green, and weed-free lawn",
+          "Improved curb appeal",
+          "Increased property value",
+          "Reduced pest and disease problems"
+        ],
+        "faq": [
+          {
+            "question": "How often should I fertilize my lawn?",
+            "answer": "We recommend fertilizing your lawn 4-6 times per year, depending on the type of grass and soil conditions."
+          },
+          {
+            "question": "What is aeration and why is it important?",
+            "answer": "Aeration is the process of removing small plugs of soil from your lawn to improve air circulation, water penetration, and nutrient absorption. It is especially important in Raleigh due to the clay soil."
+          },
+          {
+            "question": "How do I get rid of weeds in my lawn?",
+            "answer": "Our weed control program includes pre-emergent and post-emergent herbicides to prevent and control a wide range of weeds."
+          }
+        ]
+      },
+      {
+        "slug": "hardscaping",
+        "name": "Hardscaping",
+        "shortDescription": "Enhance your outdoor living space with custom patios, walkways, and retaining walls.",
+        "description": "Our hardscaping service transforms your outdoor space with beautiful and functional features. We specialize in designing and installing patios, walkways, retaining walls, and outdoor kitchens. Using a variety of materials, including pavers, natural stone, and concrete, we create custom hardscapes that complement your home's architecture and landscape design. We understand the importance of proper drainage and site preparation, especially in Raleigh's climate. Our experienced team will ensure that your hardscape is built to last, withstanding the elements and providing years of enjoyment. Whether you're looking to create an outdoor entertaining area, improve accessibility, or add structural support to your landscape, we have the expertise to bring your vision to life. We often work with homeowners in Five Points to create charming patios and walkways that enhance the character of their historic homes. We also build durable retaining walls to address drainage issues common in the Piedmont region.",
+        "process": [
+          "Step 1: Design Consultation to discuss your hardscaping goals.",
+          "Step 2: Site Planning and Material Selection.",
+          "Step 3: Professional Installation by our experienced team.",
+          "Step 4: Final Inspection to ensure your satisfaction."
+        ],
+        "benefits": [
+          "Increased outdoor living space",
+          "Improved property value",
+          "Enhanced aesthetic appeal",
+          "Durable and long-lasting features"
+        ],
+        "faq": [
+          {
+            "question": "What is the best material for a patio?",
+            "answer": "The best material for a patio depends on your budget, style preferences, and the overall design of your landscape. Pavers, natural stone, and concrete are all popular options."
+          },
+          {
+            "question": "Do I need a permit for a retaining wall?",
+            "answer": "Whether or not you need a permit for a retaining wall depends on its height and location. We can help you determine if a permit is required and assist with the application process."
+          },
+          {
+            "question": "How long does it take to install a patio?",
+            "answer": "The installation time for a patio varies depending on its size and complexity. A typical patio can be installed in 1-3 days."
+          }
+        ]
+      },
+      {
+        "slug": "irrigation-systems",
+        "name": "Irrigation Systems",
+        "shortDescription": "Efficient irrigation systems to keep your landscape healthy and hydrated.",
+        "description": "Our irrigation system services are designed to provide efficient and reliable watering for your lawn and landscape. We offer a range of solutions, including sprinkler systems, drip irrigation, and smart controllers. Understanding Raleigh's hot and humid summers, we help you choose the right system to meet your specific needs and conserve water. Our experienced technicians will install and maintain your irrigation system, ensuring optimal performance and minimizing water waste. We also offer repair services for existing systems, including leak detection, sprinkler head replacement, and controller programming. We can design systems to address the specific needs of newer developments in Brier Creek, where efficient water use is often a priority. Our smart controllers allow you to adjust watering schedules based on weather conditions, saving you water and money. We also help ensure your system is properly winterized to prevent damage from occasional freezing temperatures.",
+        "process": [
+          "Step 1: Water Audit to assess your irrigation needs.",
+          "Step 2: System Design and Planning.",
+          "Step 3: Professional Installation.",
+          "Step 4: System Maintenance and Repair."
+        ],
+        "benefits": [
+          "Efficient water usage",
+          "Healthy lawn and landscape",
+          "Reduced water bills",
+          "Convenient and automated watering"
+        ],
+        "faq": [
+          {
+            "question": "How much water can I save with an efficient irrigation system?",
+            "answer": "An efficient irrigation system can save you up to 50% on your water bill compared to manual watering."
+          },
+          {
+            "question": "What is a smart irrigation controller?",
+            "answer": "A smart irrigation controller uses weather data and soil sensors to automatically adjust watering schedules based on real-time conditions."
+          },
+          {
+            "question": "How often should I have my irrigation system serviced?",
+            "answer": "We recommend having your irrigation system serviced at least once a year to ensure optimal performance and prevent costly repairs."
+          }
+        ]
+      },
+      {
+        "slug": "outdoor-lighting",
+        "name": "Outdoor Lighting",
+        "shortDescription": "Enhance the beauty and safety of your property with professional outdoor lighting.",
+        "description": "Our outdoor lighting service transforms your property with strategically placed lights that enhance its beauty and security. We offer a range of lighting solutions, including landscape lighting, pathway lighting, and security lighting. Our experienced designers will create a custom lighting plan that highlights your home's architectural features and landscape elements. We use high-quality, energy-efficient fixtures that are designed to withstand the elements and provide years of reliable performance. We understand the importance of proper lighting design, ensuring that your property is both beautiful and safe. Whether you're looking to create a warm and inviting atmosphere for outdoor entertaining or improve security around your home, we have the expertise to bring your vision to life. We often work with homeowners near North Hills to create sophisticated lighting designs that complement the area's upscale aesthetic. We also offer smart lighting systems that can be controlled remotely, allowing you to adjust the lighting based on your needs and preferences.",
+        "process": [
+          "Step 1: Lighting Design Consultation.",
+          "Step 2: Fixture Selection and Placement.",
+          "Step 3: Professional Installation.",
+          "Step 4: System Programming and Adjustment."
+        ],
+        "benefits": [
+          "Enhanced property value",
+          "Improved security",
+          "Increased curb appeal",
+          "Extended outdoor living spaces"
+        ],
+        "faq": [
+          {
+            "question": "What type of outdoor lighting is best for security?",
+            "answer": "Motion-activated floodlights and strategically placed pathway lights are ideal for security lighting."
+          },
+          {
+            "question": "How much does outdoor lighting cost?",
+            "answer": "The cost of outdoor lighting varies depending on the size and complexity of the project. We offer free consultations to provide you with a detailed estimate."
+          },
+          {
+            "question": "What are the benefits of LED outdoor lighting?",
+            "answer": "LED outdoor lighting is energy-efficient, long-lasting, and provides a bright, clean light."
+          }
+        ]
+      },
+      {
+        "slug": "drainage-solutions",
+        "name": "Drainage Solutions",
+        "shortDescription": "Effective drainage solutions to prevent water damage and protect your property.",
+        "description": "Grass Roots Landscaping specializes in providing effective drainage solutions for Raleigh properties. We understand the challenges posed by the Piedmont's red clay soil, which can lead to standing water, erosion, and damage to your foundation. Our team designs and installs custom drainage systems to address these issues, including French drains, surface drains, and grading adjustments. We assess your property's specific needs and develop a plan that effectively manages water runoff and prevents water damage. Whether you're experiencing flooding in your yard, water in your basement, or erosion problems, we have the expertise to provide a long-lasting solution. Many older homes near Pullen Park experience drainage issues due to the area's topography and aging infrastructure, and we have extensive experience in addressing these challenges. We also ensure that our drainage solutions comply with local regulations and are environmentally responsible.",
+        "process": [
+          "Step 1: Site Assessment to identify drainage problems.",
+          "Step 2: Drainage System Design.",
+          "Step 3: Professional Installation.",
+          "Step 4: Final Inspection and Testing."
+        ],
+        "benefits": [
+          "Prevention of water damage",
+          "Protection of your foundation",
+          "Reduced erosion",
+          "Improved property value"
+        ],
+        "faq": [
+          {
+            "question": "What is a French drain?",
+            "answer": "A French drain is a trench filled with gravel or rock that contains a perforated pipe to redirect surface and groundwater away from your property."
+          },
+          {
+            "question": "How can I tell if I have a drainage problem?",
+            "answer": "Signs of a drainage problem include standing water, erosion, wet basement, and foundation cracks."
+          },
+          {
+            "question": "Do I need a permit for drainage work?",
+            "answer": "Whether or not you need a permit for drainage work depends on the scope of the project and local regulations. We can help you determine if a permit is required and assist with the application process."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Durham",
+        "slug": "durham-nc",
+        "state": "NC",
+        "content": "Grass Roots Landscaping is proud to offer comprehensive landscaping services to the vibrant city of Durham, NC. From the revitalized downtown area with its renovated industrial lofts to the established neighborhoods surrounding Duke University, we understand the diverse landscaping needs of Durham residents. We're committed to providing top-quality lawn care, landscape design, and hardscaping solutions that enhance the beauty and value of your property.\n\nOur team is experienced in creating outdoor spaces that thrive in Durham's hot, humid summers. We select plants that are well-suited to the local climate and soil conditions, ensuring that your landscape remains healthy and beautiful year-round. Whether you need routine lawn maintenance or a complete landscape renovation, Grass Roots Landscaping is here to help you achieve your landscaping goals.",
+        "localContext": "Durham is known for its thriving arts and culture scene, as well as its growing technology sector. We understand the importance of creating outdoor spaces that complement the unique character of this dynamic city.",
+        "nearbyAreas": [
+          "Chapel Hill",
+          "Raleigh",
+          "Morrisville"
+        ]
+      },
+      {
+        "city": "Cary",
+        "slug": "cary-nc",
+        "state": "NC",
+        "content": "Grass Roots Landscaping provides exceptional landscaping services to the residents of Cary, NC. Known for its master-planned communities developed from the 1980s through the 2000s, Cary boasts a variety of home styles and landscaping preferences. We specialize in tailoring our services to meet the specific needs of each homeowner, ensuring that your property maintains its curb appeal and value.\n\nWe offer a full range of landscaping services in Cary, including lawn care, landscape design, and hardscaping. Our team is dedicated to providing reliable and professional service, using only the highest quality materials and techniques. We understand the importance of creating outdoor spaces that are both beautiful and functional, allowing you to enjoy your property to the fullest.",
+        "localContext": "Cary is a family-friendly town with a strong sense of community and a focus on quality of life. We provide landscaping services that cater to the needs of families and individuals alike.",
+        "nearbyAreas": [
+          "Apex",
+          "Morrisville",
+          "Raleigh"
+        ]
+      },
+      {
+        "city": "Chapel Hill",
+        "slug": "chapel-hill-nc",
+        "state": "NC",
+        "content": "Grass Roots Landscaping is delighted to serve the community of Chapel Hill, NC. Home to the University of North Carolina, Chapel Hill features a diverse range of housing options and landscaping styles. We are adept at adapting our services to meet the unique needs of each property owner, from students and faculty to long-time residents.\n\nWe offer a comprehensive range of landscaping services in Chapel Hill, including lawn maintenance, garden design, and tree care. Our team is committed to providing environmentally responsible solutions that enhance the beauty and sustainability of your landscape. We understand the importance of preserving the natural charm of Chapel Hill while creating outdoor spaces that are both functional and aesthetically pleasing.",
+        "localContext": "Chapel Hill is a vibrant university town with a strong commitment to sustainability and community engagement. We strive to provide landscaping services that reflect these values.",
+        "nearbyAreas": [
+          "Durham",
+          "Carrboro",
+          "Hillsborough"
+        ]
+      },
+      {
+        "city": "Apex",
+        "slug": "apex-nc",
+        "state": "NC",
+        "content": "Grass Roots Landscaping is proud to offer landscaping services to the rapidly growing town of Apex, NC. Characterized by newer family developments built from the 2000s to the 2020s, Apex features a variety of modern home styles and landscaping trends. We specialize in creating outdoor spaces that cater to the needs of families, providing safe and enjoyable environments for children and adults alike.\n\nOur landscaping services in Apex include lawn care, landscape design, hardscaping, and irrigation system installation and maintenance. We understand the importance of creating outdoor spaces that are both beautiful and functional, allowing you to enjoy your property to the fullest. We focus on drought tolerant plantings, knowing summers can be hot and dry.",
+        "localContext": "Apex is a family-oriented community with a strong emphasis on education and recreation. We provide landscaping services that enhance the quality of life for Apex residents.",
+        "nearbyAreas": [
+          "Cary",
+          "Holly Springs",
+          "Fuquay-Varina"
+        ]
+      },
+      {
+        "city": "Morrisville",
+        "slug": "morrisville-nc",
+        "state": "NC",
+        "content": "Grass Roots Landscaping is pleased to provide landscaping services to the residents of Morrisville, NC. Located near the Research Triangle Park (RTP), Morrisville is home to many tech workers and features a mix of housing options. We understand the importance of creating outdoor spaces that are both functional and aesthetically pleasing, providing a relaxing and inviting environment for homeowners.\n\nOur landscaping services in Morrisville include lawn care, landscape design, hardscaping, and irrigation system maintenance. We are committed to providing reliable and professional service, using only the highest quality materials and techniques. We understand the unique needs of Morrisville residents and strive to exceed their expectations.",
+        "localContext": "Morrisville is a diverse and growing community with a strong connection to the technology industry. We provide landscaping services that cater to the needs of busy professionals and families alike.",
+        "nearbyAreas": [
+          "Cary",
+          "Raleigh",
+          "Durham"
+        ]
+      },
+      {
+        "city": "Raleigh",
+        "slug": "raleigh-nc",
+        "state": "NC",
+        "content": "Grass Roots Landscaping is dedicated to providing top-quality landscaping services throughout Raleigh, NC. As the state capital, Raleigh boasts a diverse mix of neighborhoods, architectural styles, and landscaping preferences. From historic homes in Oakwood to modern residences in North Hills, we tailor our services to meet the unique needs of each property owner. We understand the importance of creating outdoor spaces that enhance the beauty and value of your home.\n\nOur comprehensive range of landscaping services in Raleigh includes lawn care, landscape design, hardscaping, and irrigation system installation and maintenance. We are committed to using sustainable practices and environmentally friendly products whenever possible. Whether you need routine lawn maintenance or a complete landscape renovation, Grass Roots Landscaping is here to help you achieve your landscaping goals.",
+        "localContext": "Raleigh is a thriving city with a vibrant arts and culture scene, a strong economy, and a growing population. We provide landscaping services that contribute to the overall beauty and quality of life in Raleigh.",
+        "nearbyAreas": [
+          "Cary",
+          "Durham",
+          "Wake Forest"
+        ]
+      },
+      {
+        "city": "Wake Forest",
+        "slug": "wake-forest-nc",
+        "state": "NC",
+        "content": "Grass Roots Landscaping is happy to serve the growing community of Wake Forest, NC. This town offers a blend of historic charm and modern development, with a variety of housing styles and landscaping needs. We understand that each property is unique, and we tailor our services to meet the specific requirements of our clients. Whether you're looking for routine lawn maintenance, a complete landscape redesign, or hardscaping solutions, Grass Roots Landscaping is ready to help.\n\nOur services in Wake Forest include lawn care, landscape design, hardscaping, and seasonal maintenance. We're dedicated to providing reliable, professional service, and we use only the highest-quality materials and techniques. Our goal is to create outdoor spaces that are both beautiful and functional, enhancing the value and enjoyment of your property.",
+        "localContext": "Wake Forest is known for its strong community spirit, excellent schools, and beautiful parks. We are committed to providing landscaping services that contribute to the town's overall appeal.",
+        "nearbyAreas": [
+          "Raleigh",
+          "Rolesville",
+          "Youngsville"
+        ]
+      },
+      {
+        "city": "Holly Springs",
+        "slug": "holly-springs-nc",
+        "state": "NC",
+        "content": "Grass Roots Landscaping is pleased to offer our landscaping services to the residents of Holly Springs, NC. This rapidly growing town features a mix of established neighborhoods and new developments, each with its own distinct landscaping style. We understand the unique needs of Holly Springs homeowners and are committed to providing exceptional service and quality workmanship.\n\nOur services in Holly Springs include lawn care, landscape design, hardscaping, irrigation system maintenance, and seasonal cleanup. We use environmentally friendly practices and materials whenever possible, and we are dedicated to creating outdoor spaces that are both beautiful and sustainable. Let us help you transform your property into the outdoor oasis you've always dreamed of.",
+        "localContext": "Holly Springs is a family-friendly town with a strong sense of community and a commitment to preserving its natural beauty. We strive to provide landscaping services that enhance the town's appeal and contribute to its overall quality of life.",
+        "nearbyAreas": [
+          "Apex",
+          "Fuquay-Varina",
+          "Cary"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah K.",
+        "rating": 5,
+        "service": "Landscape Design",
+        "text": "Mark and his team transformed our backyard into an amazing outdoor living space. The design perfectly captured our vision, and the installation was flawless. We couldn't be happier with the results!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "David M.",
+        "rating": 4,
+        "service": "Lawn Care",
+        "text": "Our lawn has never looked better! Grass Roots Landscaping's lawn care program has made a huge difference. The weeds are gone, and the grass is thick and green. Highly recommend!",
+        "date": "2024-11-20"
+      },
+      {
+        "name": "Jessica R.",
+        "rating": 5,
+        "service": "Hardscaping",
+        "text": "We hired Grass Roots to build a patio and walkway in our backyard, and they did an excellent job. The craftsmanship is exceptional, and the project was completed on time and within budget.",
+        "date": "2024-09-01"
+      },
+      {
+        "name": "Tom B.",
+        "rating": 5,
+        "service": "Irrigation Systems",
+        "text": "Grass Roots installed a new irrigation system for our lawn, and it's working perfectly. The system is efficient and easy to use, and our lawn is staying green even during the hottest summer months.",
+        "date": "2024-07-10"
+      },
+      {
+        "name": "Emily L.",
+        "rating": 4,
+        "service": "Outdoor Lighting",
+        "text": "The outdoor lighting that Grass Roots installed has completely transformed our property. It looks beautiful at night, and we feel much safer. The team was professional and easy to work with.",
+        "date": "2024-05-05"
+      },
+      {
+        "name": "Michael S.",
+        "rating": 5,
+        "service": "Drainage Solutions",
+        "text": "We had serious drainage problems in our backyard, and Grass Roots came up with a solution that completely solved the issue. The team was knowledgeable and efficient, and we're thrilled with the results.",
+        "date": "2024-02-18"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Grass Roots Landscaping | Raleigh, NC",
+        "description": "Expert landscaping services in Raleigh, NC. Design, lawn care, hardscaping, irrigation, and more. Free consultations!"
+      },
+      "about": {
+        "title": "About Grass Roots Landscaping | Raleigh, NC",
+        "description": "Learn about Grass Roots Landscaping, a local landscaping company serving Raleigh, NC. Our mission, values, and community commitment."
+      },
+      "services": {
+        "title": "Landscaping Services | Raleigh, NC",
+        "description": "Comprehensive landscaping services in Raleigh, NC. Landscape design, lawn care, hardscaping, irrigation, outdoor lighting, drainage."
+      },
+      "contact": {
+        "title": "Contact Grass Roots Landscaping | Raleigh, NC",
+        "description": "Contact Grass Roots Landscaping for a free consultation. Serving Raleigh, Durham, Cary, Chapel Hill, Apex, and Morrisville."
+      },
+      "reviews": {
+        "title": "Grass Roots Landscaping Reviews | Raleigh, NC",
+        "description": "Read reviews of Grass Roots Landscaping in Raleigh, NC. See what our customers are saying about our landscaping services."
+      },
+      "service-areas": {
+        "title": "Service Areas | Grass Roots Landscaping",
+        "description": "Grass Roots Landscaping provides landscaping services in Raleigh, Durham, Cary, Chapel Hill, Apex and Morrisville, NC."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "landscape-design": "/images/service-landscape-design.webp",
+      "lawn-care": "/images/service-lawn-care.webp",
+      "hardscaping": "/images/service-hardscaping.webp",
+      "irrigation-systems": "/images/service-irrigation-systems.webp",
+      "outdoor-lighting": "/images/service-outdoor-lighting.webp",
+      "drainage-solutions": "/images/service-drainage-solutions.webp"
+    },
+    "servicesResponsive": {
+      "landscape-design": {
+        "src": "/images/service-landscape-design.webp",
+        "srcset": "/images/service-landscape-design-400w.webp 400w, /images/service-landscape-design-800w.webp 800w, /images/service-landscape-design-1200w.webp 1200w, /images/service-landscape-design.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "lawn-care": {
+        "src": "/images/service-lawn-care.webp",
+        "srcset": "/images/service-lawn-care-400w.webp 400w, /images/service-lawn-care-800w.webp 800w, /images/service-lawn-care-1200w.webp 1200w, /images/service-lawn-care.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "hardscaping": {
+        "src": "/images/service-hardscaping.webp",
+        "srcset": "/images/service-hardscaping-400w.webp 400w, /images/service-hardscaping-800w.webp 800w, /images/service-hardscaping-1200w.webp 1200w, /images/service-hardscaping.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "irrigation-systems": {
+        "src": "/images/service-irrigation-systems.webp",
+        "srcset": "/images/service-irrigation-systems-400w.webp 400w, /images/service-irrigation-systems-800w.webp 800w, /images/service-irrigation-systems-1200w.webp 1200w, /images/service-irrigation-systems.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "outdoor-lighting": {
+        "src": "/images/service-outdoor-lighting.webp",
+        "srcset": "/images/service-outdoor-lighting-400w.webp 400w, /images/service-outdoor-lighting-800w.webp 800w, /images/service-outdoor-lighting-1200w.webp 1200w, /images/service-outdoor-lighting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drainage-solutions": {
+        "src": "/images/service-drainage-solutions.webp",
+        "srcset": "/images/service-drainage-solutions-400w.webp 400w, /images/service-drainage-solutions-800w.webp 800w, /images/service-drainage-solutions-1200w.webp 1200w, /images/service-drainage-solutions.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
